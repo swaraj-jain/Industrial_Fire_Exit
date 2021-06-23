@@ -14,8 +14,8 @@ from heapq import heappush, heappop
     
     1 and 6 are exit node
 '''
-g1 = [1, 2, 2, 2, 3, 3, 5]
-g2 = [2, 3, 5, 4, 4, 6, 6]
+g1 = [1, 2, 2, 2, 3, 3, 5, 2, 3, 5, 4, 4, 6, 6]
+g2 = [2, 3, 5, 4, 4, 6, 6, 1, 2, 2, 2, 3, 3, 5]
 
 INF = math.inf
 final_path = []
